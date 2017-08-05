@@ -12,8 +12,7 @@
     </fileset>
 
     <target name="help" description="lists available targets">
-        <exec command="phing -l" outputProperty="help"/>
-        <echo>${help}</echo>
+        <phing phingFile="../pfw/build.xml" target="help"/>
     </target>
 
     <target name="sniff" description="checks adherence to coding standard">
