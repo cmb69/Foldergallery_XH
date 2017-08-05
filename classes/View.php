@@ -21,6 +21,8 @@
 
 namespace Foldergallery;
 
+use Pfw\HtmlString;
+
 class View
 {
     /**
